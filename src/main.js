@@ -184,17 +184,27 @@ class Index extends React.Component {
                 <div className="switch" id="switchable">
                     <SwitchableApp />
                 </div>
-                 <div id="Guess">
 
-                </div>
-                <div id="scroll-lucky">
+                /*
+                * 猜你喜欢
+                */
+                <div id="Guess"></div>
 
-                </div>
-                <div id="soon-announced">
-                </div>
 
-                <div id="phone">
-                </div>
+                /*
+                * 幸运名单
+                */
+                <div id="scroll-lucky"></div>
+
+                /*
+                * 火热进行
+                */
+                <div id="soon-announced"></div>
+
+                /*
+                * 各个分类
+                */
+                <div id="phone"></div>
 
                 <div id="game">
                 </div>
@@ -314,6 +324,10 @@ class Details extends React.Component {
     componentDidMount() {
         $("#fixed-header").hide();
 
+
+        /*
+        * 购买商品相关操作
+        */
         $(".buy-a-count").click(function(ev) {
             ev.preventDefault();
             var max = parseInt($(".P-bar03 em").html()),
