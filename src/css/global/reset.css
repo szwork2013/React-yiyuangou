@@ -1,0 +1,23 @@
+body {
+	font: 14px "微软雅黑" "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+}
+body, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, pre , form, fieldset, legend, input, button, textarea, p, blockquote, th, td{margin:0;padding:0;}
+ul, ol, menu{list-style:none;}
+fieldset, img{border:none;}
+img, object, select, input, textarea, button{vertical-align:middle;}
+
+h1, h2, h3, h4, h5, h6, input, textarea, select, address, caption, cite, code, dfn, em, i, b, strong, small, th, var, abbr{font-size:100%;font-style:normal;}
+q:before, q:after{content:'';}
+ins, s, u, del{text-decoration:none;}
+a{text-decoration:none;cursor:pointer;}
+table {
+	border-collapse: collapse;
+	margin: 0 auto;
+	table-layout: fixed;
+}
+.f-l{
+	float: left;
+}
+.f-r{
+	float: right;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width">
+<link rel="stylesheet" href="{{asset('src/css/style.css')}}" media="screen" title="no title" charset="utf-8">
+<link rel="stylesheet" href="{{asset('src/css/global/reset.css')}}" media="screen" title="no title" charset="utf-8">
+<title>一元会</title>
+</head>
+<body>
+    <div class="main">
+        <div id="app"></div>
+    </div>
+    <a class="g-btn btn1" href="###" id="btnTop">
+        <span class="arrow upArrow"></span>
+    </a>
+    <script type="text/javascript" src="./src/common/jquery.js"></script>
+    <script type="text/javascript" src="./dist/build.js"></script>
+    <script src="./src/common/MobileSlider.js"></script>
+    <script type="text/javascript" src="./src/js/index.js"></script>
+    <script type="text/javascript">
+        // //_token
+        $("#app").attr("_token", $('input[name="_token"]').val());
+    </script>
+</body>
+</html>
