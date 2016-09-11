@@ -60,6 +60,14 @@ import CommodityApp from './js/Commodity/CommodityApp.js';
 import DetailsApp from './js/Details/DetailsApp.js';
 import handleData from './js/handleData.js';
 import scrollTop from './js/scrollTop.js';
+
+
+/**
+ * 说明：
+ * 1.所有商品展示都用的是同一个组建，所以没有选择把title当参数传入
+ * 2.CommodityApp组建下的子组建Pics通过renderType判断了渲染类型
+ * 3.所有数据都是通过handleData接口获得数据
+*/
 class Index extends React.Component {
 
     componentWillMount() {
