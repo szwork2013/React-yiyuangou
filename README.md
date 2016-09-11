@@ -7,7 +7,12 @@
  ![image](https://github.com/ty19105/React-yiyuangou/blob/master/36FD604BF245C98505FECD97F8DD623A.jpg)
 
 
+``` bash
+npm install
 
-1.npm install
+# serve with hot reload at localhost:8080
+npm run dev
 
-2.npm run dev
+# build for production with minification
+npm run build
+```
